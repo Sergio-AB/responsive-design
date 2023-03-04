@@ -1,0 +1,58 @@
+@media (min-width: 650px) {
+    .main__benefits>div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .main__benefits>div>article {
+      width: 45%;
+    }
+  
+    .main__benefits {
+      height: auto;
+      padding-bottom: 30px;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .main__benefits>div {
+      justify-content: space-around;
+    }
+  
+    .main__benefits>div>article {
+      width: 20%;
+      height: auto;
+    }
+  
+  }
+
+  @media (min-width: 650px) {
+    .main__plans-slider {
+      overflow-x: unset;
+      overscroll-behavior-x: unset;
+      scroll-snap-type: x unset;
+  
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      height: unset;
+    }
+  
+    .main__plans-plan:first-child {
+      margin-left: 0;
+    }
+  
+    .main__plans-plan {
+      scroll-snap-align: unset;
+      margin: 0;
+    }
+  
+    .main__plans-plan-last {
+      margin: 0;
+    }
+  
+    #empresas {
+      margin: 0;
+    }
+  }
